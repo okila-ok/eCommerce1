@@ -12,8 +12,15 @@ public class HomePage extends BasePage{
     @FindBy(xpath = "//h2[text() = 'Featured Products']")
     WebElement featuredProductsName;
 
+    @FindBy(xpath = "//h3[text() = '25% OFF On all products']")
+    WebElement discountText;
+
     public String getFeaturedProductsName() {
         return featuredProductsName.getText();
+    }
+
+    public String getDiscountText() {
+        return discountText.getText();
     }
 
 }

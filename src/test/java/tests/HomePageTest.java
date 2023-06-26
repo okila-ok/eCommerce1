@@ -16,4 +16,13 @@ public class HomePageTest extends BaseTest{
         Assert.assertEquals(actualResult, expectedResult);
     }
 
+    @Test
+    public void testVerifyDiscountText() {
+        String expectedResult = "25% OFF On all products";
+
+        String actualResult = new HomePage(getDriver())
+                             .getDiscountText();
+
+        Assert.assertEquals(actualResult, expectedResult);
+    }
 }
