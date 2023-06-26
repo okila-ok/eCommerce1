@@ -21,7 +21,17 @@ public class HomePageTest extends BaseTest{
         String expectedResult = "25% OFF On all products";
 
         String actualResult = new HomePage(getDriver())
-                             .getDiscountText();
+                .getDiscountText();
+
+        Assert.assertEquals(actualResult, expectedResult);
+    }
+
+    @Test
+    public void testVerifyMainMenuItemNumber() {
+        int expectedResult = 8;
+
+        int actualResult = new HomePage(getDriver())
+                .getMainMenuItemNumber();
 
         Assert.assertEquals(actualResult, expectedResult);
     }

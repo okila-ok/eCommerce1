@@ -3,6 +3,7 @@ package pages;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.FindBy;
+import java.util.List;
 
 public class HomePage extends BasePage{
     public HomePage(WebDriver driver) {
@@ -10,10 +11,13 @@ public class HomePage extends BasePage{
     }
 
     @FindBy(xpath = "//h2[text() = 'Featured Products']")
-    WebElement featuredProductsName;
+    private WebElement featuredProductsName;
 
     @FindBy(xpath = "//h3[text() = '25% OFF On all products']")
-    WebElement discountText;
+    private WebElement discountText;
+
+    @FindBy(xpath = "//div[@id='ast-desktop-header']//ul//li")
+    private List<WebElement> mainMenuItems;
 
     public String getFeaturedProductsName() {
         return featuredProductsName.getText();
@@ -23,4 +27,7 @@ public class HomePage extends BasePage{
         return discountText.getText();
     }
 
+    public int getMainMenuItemNumber() {
+        return mainMenuItems.size();
+    }
 }

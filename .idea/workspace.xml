@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aef28160-5b75-4ed2-9b52-74a13af3d1b1" name="Changes" comment="add HomePage">
+    <list default="true" id="aef28160-5b75-4ed2-9b52-74a13af3d1b1" name="Changes" comment="add HomePage testVerifyDiscountText">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/pages/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/pages/HomePage.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/tests/HomePageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/tests/HomePageTest.java" afterDir="false" />
     </list>
@@ -23,7 +24,7 @@
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="ok/feature" />
+        <entry key="$PROJECT_DIR$" value="main" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -43,7 +44,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="TestNG.HomePageTest.testVerifyDiscountText">
+  <component name="RunManager" selected="TestNG.HomePageTest.testVerifyMainMenuItemNumber">
     <configuration name="HomePageTest.testVerifyDiscountText" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="eCommerceProject" />
       <extension name="coverage">
@@ -80,8 +81,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="HomePageTest.testVerifyMainMenuItemNumber" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="eCommerceProject" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="tests" />
+      <option name="MAIN_CLASS_NAME" value="tests.HomePageTest" />
+      <option name="METHOD_NAME" value="testVerifyMainMenuItemNumber" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.HomePageTest.testVerifyMainMenuItemNumber" />
         <item itemvalue="TestNG.HomePageTest.testVerifyDiscountText" />
         <item itemvalue="TestNG.HomePageTest.testVerifyFeaturedProductsName" />
       </list>
@@ -117,7 +137,14 @@
       <option name="project" value="LOCAL" />
       <updated>1687748334594</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="add HomePage testVerifyDiscountText">
+      <created>1687750486692</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1687750486692</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -135,6 +162,7 @@
     <MESSAGE value="add Main.java" />
     <MESSAGE value="add BasePage" />
     <MESSAGE value="add HomePage" />
-    <option name="LAST_COMMIT_MESSAGE" value="add HomePage" />
+    <MESSAGE value="add HomePage testVerifyDiscountText" />
+    <option name="LAST_COMMIT_MESSAGE" value="add HomePage testVerifyDiscountText" />
   </component>
 </project>
