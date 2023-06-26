@@ -12,7 +12,7 @@ public class BaseTest {
 
     public WebDriver getDriver() {
         if(driver == null) {
-            return new ChromeDriver();
+            driver = new ChromeDriver();
         }
         return driver;
     }
